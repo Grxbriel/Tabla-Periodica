@@ -1,4 +1,4 @@
-- var categorias = ['Alcalinos','alkaline-earth-metals','lanthanoids','actinoids','transition-metals','post-transition-metals','Metaloides','Otros-no-Metales','Gases-Nobles','unknown']
+- var categorias = ['Alcalinos','alkaline-earth-metals','Lantanidos','Actinidos','transition-metals','post-transition-metals','Metaloides','Otros-no-Metales','Gases-Nobles','Halogeno']
 
 // ELEMENT MIXIN TEMPLATE
 mixin element(number, simbolo, name, mass, weight, material, column, row)
@@ -89,21 +89,21 @@ mixin placeholder(number, material, column, row)
     +element(54, 'Xe', 'Xenon', 131.29, [2,8,18,18,8], 'GasNoble', 18, 5)
     +element(55, 'Cs', 'Caesium', 132.91, [2,8,18,18,8,1], 'Alcalino', 1, 6)
     +element(56, 'Ba', 'Barium', 137.33, [2,8,18,18,8,2], 'alkaline-earth-metal', 2, 6)
-    +element(57, 'La', 'Lanthanum', 138.91, [2,8,18,18,9,2], 'lanthanoid', 4, 9)
-    +element(58, 'Ce', 'Cerium', 140.12, [2,8,18,19,9,2], 'lanthanoid', 5, 9)
-    +element(59, 'Pr', 'Praseodymium', 140.91, [2,8,18,21,8,2], 'lanthanoid', 6, 9)
-    +element(60, 'Nd', 'Neodymium', 144.24, [2,8,18,22,8,2], 'lanthanoid', 7, 9)
-    +element(61, 'Pm', 'Promethium', 144.24, [2,8,18,23,8,2], 'lanthanoid', 8, 9)
-    +element(62, 'Sm', 'Samarium', 150.36, [2,8,18,24,8,2], 'lanthanoid', 9, 9)
-    +element(63, 'Eu', 'Europium', 151.96, [2,8,18,25,8,2], 'lanthanoid', 10, 9)
-    +element(64, 'Gd', 'Gadolinium', 157.25, [2,8,18,25,9,2], 'lanthanoid', 11, 9)
-    +element(65, 'Tb', 'Terbium', 158.93, [2,8,18,27,8,2], 'lanthanoid', 12, 9)
-    +element(66, 'Dy', 'Dysprosium', 162.50, [2,8,18,28,8,2], 'lanthanoid', 13, 9)
-    +element(67, 'Ho', 'Holmium', 164.93, [2,8,18,29,8,2], 'lanthanoid', 14, 9)
-    +element(68, 'Er', 'Erbium', 167.26, [2,8,18,30,8,2], 'lanthanoid', 15, 9)
-    +element(69, 'Tm', 'Thulium', 168.93, [2,8,18,31,8,2], 'lanthanoid', 16, 9)
-    +element(70, 'Yb', 'Ytterbium', 173.05, [2,8,18,32,8,2], 'lanthanoid', 17, 9)
-    +element(71, 'Lu', 'Lutetium', 174.97, [2,8,18,32,9,2], 'lanthanoid', 18, 9)
+    +element(57, 'La', 'Lanthanum', 138.91, [2,8,18,18,9,2], 'Lantanido', 4, 9)
+    +element(58, 'Ce', 'Cerium', 140.12, [2,8,18,19,9,2], 'Lantanido', 5, 9)
+    +element(59, 'Pr', 'Praseodymium', 140.91, [2,8,18,21,8,2], 'Lantanido', 6, 9)
+    +element(60, 'Nd', 'Neodymium', 144.24, [2,8,18,22,8,2], 'Lantanido', 7, 9)
+    +element(61, 'Pm', 'Promethium', 144.24, [2,8,18,23,8,2], 'Lantanido', 8, 9)
+    +element(62, 'Sm', 'Samarium', 150.36, [2,8,18,24,8,2], 'Lantanido', 9, 9)
+    +element(63, 'Eu', 'Europium', 151.96, [2,8,18,25,8,2], 'Lantanido', 10, 9)
+    +element(64, 'Gd', 'Gadolinium', 157.25, [2,8,18,25,9,2], 'Lantanido', 11, 9)
+    +element(65, 'Tb', 'Terbium', 158.93, [2,8,18,27,8,2], 'Lantanido', 12, 9)
+    +element(66, 'Dy', 'Dysprosium', 162.50, [2,8,18,28,8,2], 'Lantanido', 13, 9)
+    +element(67, 'Ho', 'Holmium', 164.93, [2,8,18,29,8,2], 'Lantanido', 14, 9)
+    +element(68, 'Er', 'Erbium', 167.26, [2,8,18,30,8,2], 'Lantanido', 15, 9)
+    +element(69, 'Tm', 'Thulium', 168.93, [2,8,18,31,8,2], 'Lantanido', 16, 9)
+    +element(70, 'Yb', 'Ytterbium', 173.05, [2,8,18,32,8,2], 'Lantanido', 17, 9)
+    +element(71, 'Lu', 'Lutetium', 174.97, [2,8,18,32,9,2], 'Lantanido', 18, 9)
     +element(72, 'Hf', 'Hafnium', 178.49, [2,8,18,32,10,2], 'transition-metal', 4, 6)
     +element(73, 'Ta', 'Tantalum', 180.95, [2,8,18,32,11,2], 'transition-metal', 5, 6)
     +element(74, 'W', 'Tungsten', 183.84, [2,8,18,32,12,2], 'transition-metal', 6, 6)
@@ -121,39 +121,39 @@ mixin placeholder(number, material, column, row)
     +element(86, 'Rn', 'Radon', '(222)', [2,8,18,32,18,8], 'GasNoble', 18, 6)
     +element(87, 'Fr', 'Francium', '(223)', [2,8,18,32,18,8,1], 'Alcalino', 1, 7)
     +element(88, 'Ra', 'Radium', '(226)', [2,8,18,32,18,8,2], 'alkaline-earth-metal', 2, 7)
-    +element(89, 'Ac', 'Actinium', '(227)', [2,8,18,32,18,9,2], 'actinoid', 4, 10)
-    +element(90, 'Th', 'Thorium', 232.04, [2,8,18,32,18,10,2], 'actinoid', 5, 10)
-    +element(91, 'Pa', 'Protactinium', 231.04, [2,8,18,32,20,9,2], 'actinoid', 6, 10)
-    +element(92, 'U', 'Uranium', 238.03, [2,8,18,32,21,9,2], 'actinoid', 7, 10)
-    +element(93, 'Np', 'Neptunium', '(237)', [2,8,18,32,22,9,2], 'actinoid', 8, 10)
-    +element(94, 'Pu', 'Plutonium', '(244)', [2,8,18,32,24,8,2], 'actinoid', 9, 10)
-    +element(95, 'Am', 'Americium', '(243)', [2,8,18,32,25,8,2], 'actinoid', 10, 10)
-    +element(96, 'Cm', 'Curium', '(247)', [2,8,18,32,25,9,2], 'actinoid', 11, 10)
-    +element(97, 'Bk', 'Berkelium', '(247)', [2,8,18,32,27,8,2], 'actinoid', 12, 10)
-    +element(98, 'Cf', 'Californium', '(251)', [2,8,18,32,28,8,2], 'actinoid', 13, 10)
-    +element(99, 'Es', 'Einsteinium', '(252)', [2,8,18,32,29,8,2], 'actinoid', 14, 10)
-    +element(100, 'Fm', 'Fermium', '(257)', [2,8,18,32,30,8,2], 'actinoid', 15, 10)
-    +element(101, 'Md', 'Mendelevium', '(258)', [2,8,18,32,31,8,2], 'actinoid', 16, 10)
-    +element(102, 'No', 'Nobelium', '(259)', [2,8,18,32,32,8,2], 'actinoid', 17, 10)
-    +element(103, 'Lr', 'Lawrencium', '(266)', [2,8,18,32,32,8,3], 'actinoid', 18, 10)
+    +element(89, 'Ac', 'Actinium', '(227)', [2,8,18,32,18,9,2], 'Actinido', 4, 10)
+    +element(90, 'Th', 'Thorium', 232.04, [2,8,18,32,18,10,2], 'Actinido', 5, 10)
+    +element(91, 'Pa', 'Protactinium', 231.04, [2,8,18,32,20,9,2], 'Actinido', 6, 10)
+    +element(92, 'U', 'Uranium', 238.03, [2,8,18,32,21,9,2], 'Actinido', 7, 10)
+    +element(93, 'Np', 'Neptunium', '(237)', [2,8,18,32,22,9,2], 'Actinido', 8, 10)
+    +element(94, 'Pu', 'Plutonium', '(244)', [2,8,18,32,24,8,2], 'Actinido', 9, 10)
+    +element(95, 'Am', 'Americium', '(243)', [2,8,18,32,25,8,2], 'Actinido', 10, 10)
+    +element(96, 'Cm', 'Curium', '(247)', [2,8,18,32,25,9,2], 'Actinido', 11, 10)
+    +element(97, 'Bk', 'Berkelium', '(247)', [2,8,18,32,27,8,2], 'Actinido', 12, 10)
+    +element(98, 'Cf', 'Californium', '(251)', [2,8,18,32,28,8,2], 'Actinido', 13, 10)
+    +element(99, 'Es', 'Einsteinium', '(252)', [2,8,18,32,29,8,2], 'Actinido', 14, 10)
+    +element(100, 'Fm', 'Fermium', '(257)', [2,8,18,32,30,8,2], 'Actinido', 15, 10)
+    +element(101, 'Md', 'Mendelevium', '(258)', [2,8,18,32,31,8,2], 'Actinido', 16, 10)
+    +element(102, 'No', 'Nobelium', '(259)', [2,8,18,32,32,8,2], 'Actinido', 17, 10)
+    +element(103, 'Lr', 'Lawrencium', '(266)', [2,8,18,32,32,8,3], 'Actinido', 18, 10)
     +element(104, 'Rf', 'Rutherfordium', '(267)', [2,8,18,32,32,10,2], 'transition-metal', 4, 7)
     +element(105, 'Db', 'Dubnium', '(268)', [2,8,18,32,32,11,2], 'transition-metal', 5, 7)
     +element(106, 'Sg', 'Seaborgium', '(269)', [2,8,18,32,32,12,2], 'transition-metal', 6, 7)
     +element(107, 'Bh', 'Bohrium', '(270)', [2,8,18,32,32,13,2], 'transition-metal', 7, 7)
     +element(108, 'Hs', 'Hassium', '(277)', [2,8,18,32,32,14,2], 'transition-metal', 8, 7)
-    +element(109, 'Mt', 'Meitnerium', '(278)', [2,8,18,32,32,15,2], 'unknown', 9, 7)
-    +element(110, 'Ds', 'Darmstadtium', '(281)', [2,8,18,32,32,17,1], 'unknown', 10, 7)
-    +element(111, 'Rg', 'Roentgenium', '(282)', [2,8,18,32,32,17,2], 'unknown', 11, 7)
+    +element(109, 'Mt', 'Meitnerium', '(278)', [2,8,18,32,32,15,2], 'Halogeno', 9, 7)
+    +element(110, 'Ds', 'Darmstadtium', '(281)', [2,8,18,32,32,17,1], 'Halogeno', 10, 7)
+    +element(111, 'Rg', 'Roentgenium', '(282)', [2,8,18,32,32,17,2], 'Halogeno', 11, 7)
     +element(112, 'Cn', 'Copernicium', '(282)', [2,8,18,32,32,18,2], 'transition-metal', 12, 7)
-    +element(113, 'Nh', 'Nihonium', '(286)', [2,8,18,32,32,18,3], 'unknown', 13, 7)
+    +element(113, 'Nh', 'Nihonium', '(286)', [2,8,18,32,32,18,3], 'Halogeno', 13, 7)
     +element(114, 'Fl', 'Flerovium', '(289)', [2,8,18,32,32,18,4], 'post-transition-metal', 14, 7)
-    +element(115, 'Mc', 'Moscovium', '(290)', [2,8,18,32,32,18,5], 'unknown', 15, 7)
-    +element(116, 'Lv', 'Livermorium', '(293)', [2,8,18,32,32,18,6], 'unknown', 16, 7)
-    +element(117, 'Ts', 'Tennessine', '(294)', [2,8,18,32,32,18,7], 'unknown', 17, 7)
-    +element(118, 'Og', 'Oganesson', '(294)', [2,8,18,32,32,18,8], 'unknown', 18, 7)
+    +element(115, 'Mc', 'Moscovium', '(290)', [2,8,18,32,32,18,5], 'Halogeno', 15, 7)
+    +element(116, 'Lv', 'Livermorium', '(293)', [2,8,18,32,32,18,6], 'Halogeno', 16, 7)
+    +element(117, 'Ts', 'Tennessine', '(294)', [2,8,18,32,32,18,7], 'Halogeno', 17, 7)
+    +element(118, 'Og', 'Oganesson', '(294)', [2,8,18,32,32,18,8], 'Halogeno', 18, 7)
     
-    +placeholder('57-71', 'lanthanoid', 3, 6)
-    +placeholder('89-103', 'actinoid', 3, 7)
+    +placeholder('57-71', 'Lantanoide', 3, 6)
+    +placeholder('89-103', 'Actinido', 3, 7)
     
     .gap.c3.r8
     
@@ -161,11 +161,11 @@ mixin placeholder(number, material, column, row)
       .row
         label.Alcalino(for='Alcalinos') Alcalinos
         label.alkaline-earth-metal(for='alkaline-earth-metals') Alkaline Earth Metals
-        label.lanthanoid(for='lanthanoids') Lanthanoids
-        label.actinoid(for='actinoids') Aktinoids
+        label.Lantanoide(for='Lantanoides') Lantanoides
+        label.Actinido(for='Actinidos') Aktinoids
         label.transition-metal(for='transition-metals') Transition Metals
         label.post-transition-metal(for='post-transition-metals') Post-Transition Metals
         label.Metaloide(for='Metaloides') Metaloides
         label.Otro-no-Metal(for='Otros-no-Metales') Other Nonmetals
-        label.GasNoble(for='GasNobleses') Noble Gasses
-        label.unknown(for='unknown') Unknown
+        label.GasNoble(for='Gases-Nobles') Noble Gasses
+        label.Halogeno(for='Halogenos') Halogenos
