@@ -10,7 +10,7 @@ $otherMetalColor: #4cddf3
 $metalloidColor: #3aefb6
 $otherNonmetalColor: #52ee61
 $nobleGasColor: #759fff
-$unknownColor: #cccccc
+$halogenColor: #da1b1b
 
 body
   background: $bgColor
@@ -300,8 +300,8 @@ body
 .noble-gas
   color: $nobleGasColor
 
-.unknown
-  color: $unknownColor
+.halogen
+  color: $halogenColor
 
 
 
@@ -413,7 +413,7 @@ body
 #metalloids:checked ~ .periodic-table .element:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
 #noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
-#unknown:checked ~ .periodic-table .element:not(.unknown),
+#halogens:checked ~ .periodic-table .element:not(.halogen),
 #alkali-metals:checked ~ .periodic-table .placeholder,
 #alkaline-earth-metals:checked ~ .periodic-table .placeholder,
 #lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
@@ -423,7 +423,7 @@ body
 #metalloids:checked ~ .periodic-table .placeholder,
 #other-nonmetals:checked ~ .periodic-table .placeholder,
 #noble-gasses:checked ~ .periodic-table .placeholder,
-#unknown:checked ~ .periodic-table .placeholder
+#halogens:checked ~ .periodic-table .placeholder
   opacity: 0.15
   pointer-events: none
 
@@ -436,7 +436,7 @@ body
 #metalloids:checked ~ .periodic-table .key label:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .key label:not(.other-nonmetal),
 #noble-gasses:checked ~ .periodic-table .key label:not(.noble-gas),
-#unknown:checked ~ .periodic-table .key label:not(.unknown)
+#halogens:checked ~ .periodic-table .key label:not(.halogen)
   opacity: 0.65
 
 .category-toggle:not(#lanthanoids):not(#actinoids):checked ~ .periodic-table .gap
