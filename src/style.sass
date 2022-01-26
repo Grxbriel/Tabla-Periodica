@@ -8,9 +8,9 @@ $actinoidColor: #c686cc
 $transitionMetalColor: #fd8572
 $postTransitionMetalColor: #4cddf3
 $metalloidColor: #3aefb6
-$otherNonmetalColor: #52ee61
+$otroNoMetal: #52ee61
 $GasNobleColor: #759fff
-$HalogenoColor: #c01111
+$HalogenoColor: #ce1515
 
 body
   background: $bgColor
@@ -61,7 +61,7 @@ body
     pointer-events: none
     transition: 500ms
   
-  .square
+  .cuadrado
     position: absolute
     left: 0
     top: 0
@@ -113,7 +113,7 @@ body
     transition: 200ms
     text-align: right
   
-  .model
+  .modelo
     display: none
     position: absolute
     left: -500%
@@ -203,7 +203,7 @@ body
           opacity: 1
           transition: 500ms
 
-        .model
+        .modelo
           display: block
           animation: fade-in
           animation-duration: 1s
@@ -234,7 +234,7 @@ body
   color: #fff
   transition: 500ms
   
-  .square
+  .cuadrado
     position: absolute
     left: 0
     top: 0
@@ -295,12 +295,12 @@ body
   color: $metalloidColor
 
 .Otro-no-Metal
-  color: $otherNonmetalColor
+  color: $otroNoMetal
 
 .GasNoble
   color: $GasNobleColor
 
-.Halógeno
+.Halogeno
   color: $HalogenoColor
 
 
@@ -413,7 +413,7 @@ body
 #Metaloides:checked ~ .periodic-table .elemento:not(.metalloid),
 #Otros-Metales:checked ~ .periodic-table .elemento:not(.Otro-no-Metal),
 #Gases-nobles:checked ~ .periodic-table .elemento:not(.GasNoble),
-#Halógenos:checked ~ .periodic-table .elemento:not(.Halógeno),
+#Halogenos:checked ~ .periodic-table .elemento:not(.Halogeno),
 #Alcalinos:checked ~ .periodic-table .placeholder,
 #Alcalino-Térreos:checked ~ .periodic-table .placeholder,
 #Lantánidos:checked ~ .periodic-table .placeholder:not(.lanthanoid),
@@ -423,7 +423,7 @@ body
 #Metaloides:checked ~ .periodic-table .placeholder,
 #Otros-Metales:checked ~ .periodic-table .placeholder,
 #Gases-nobles:checked ~ .periodic-table .placeholder,
-#Halógenos:checked ~ .periodic-table .placeholder {
+#Halogenos:checked ~ .periodic-table .placeholder {
   opacity: 0.15;
   pointer-events: none;
 }
@@ -437,7 +437,7 @@ body
 #Metaloides:checked ~ .periodic-table .key label:not(.metalloid),
 #Otros-Metales:checked ~ .periodic-table .key label:not(.Otro-no-Metal),
 #Gases-nobles:checked ~ .periodic-table .key label:not(.GasNoble),
-#Halógenos:checked ~ .periodic-table .key label:not(.Halógeno) {
+#Halogenos:checked ~ .periodic-table .key label:not(.Halogeno) {
   opacity: 0.65;
 }
 
