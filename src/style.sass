@@ -9,8 +9,8 @@ $transitionMetalColor: #fd8572
 $postTransitionMetalColor: #4cddf3
 $metalloidColor: #3aefb6
 $otherNonmetalColor: #52ee61
-$nobleGasColor: #759fff
-$unknownColor: #c01111
+$GasNobleColor: #759fff
+$HalogenoColor: #c01111
 
 body
   background: $bgColor
@@ -297,11 +297,11 @@ body
 .other-nonmetal
   color: $otherNonmetalColor
 
-.noble-gas
-  color: $nobleGasColor
+.Gas-Noble
+  color: $GasNobleColor
 
-.unknown
-  color: $unknownColor
+.Halógeno
+  color: $HalogenoColor
 
 
 
@@ -410,20 +410,20 @@ body
 #actinoids:checked ~ .periodic-table .element:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .element:not(.transition-metal),
 #post-transition-metals:checked ~ .periodic-table .element:not(.post-transition-metal),
-#metalloids:checked ~ .periodic-table .element:not(.metalloid),
+#Metaloides:checked ~ .periodic-table .element:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
-#noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
-#unknown:checked ~ .periodic-table .element:not(.unknown),
+#Gas-Nobleses:checked ~ .periodic-table .element:not(.Gas-Noble),
+#Halógenos:checked ~ .periodic-table .element:not(.Halógeno),
 #alkali-metals:checked ~ .periodic-table .placeholder,
 #alkaline-earth-metals:checked ~ .periodic-table .placeholder,
 #lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .placeholder,
 #post-transition-metals:checked ~ .periodic-table .placeholder,
-#metalloids:checked ~ .periodic-table .placeholder,
+#Metaloides:checked ~ .periodic-table .placeholder,
 #other-nonmetals:checked ~ .periodic-table .placeholder,
-#noble-gasses:checked ~ .periodic-table .placeholder,
-#unknown:checked ~ .periodic-table .placeholder
+#Gas-Nobleses:checked ~ .periodic-table .placeholder,
+#Halógenos:checked ~ .periodic-table .placeholder
   opacity: 0.15
   pointer-events: none
 
@@ -433,10 +433,10 @@ body
 #actinoids:checked ~ .periodic-table .key label:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .key label:not(.transition-metal),
 #post-transition-metals:checked ~ .periodic-table .key label:not(.post-transition-metal),
-#metalloids:checked ~ .periodic-table .key label:not(.metalloid),
+#Metaloides:checked ~ .periodic-table .key label:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .key label:not(.other-nonmetal),
-#noble-gasses:checked ~ .periodic-table .key label:not(.noble-gas),
-#unknown:checked ~ .periodic-table .key label:not(.unknown)
+#Gas-Nobleses:checked ~ .periodic-table .key label:not(.Gas-Noble),
+#Halógenos:checked ~ .periodic-table .key label:not(.Halógeno)
   opacity: 0.65
 
 .category-toggle:not(#lanthanoids):not(#actinoids):checked ~ .periodic-table .gap
