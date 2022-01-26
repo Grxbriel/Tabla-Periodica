@@ -31,7 +31,7 @@ body {
   font-size: 0.5vw;
   padding-bottom: 100%;
   cursor: pointer;
-  color: #fff;
+ 
   transition: 500ms;
 }
 .element .overlay {
