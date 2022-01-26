@@ -6,7 +6,7 @@ $alkalineEarthMetalColor: #dee955
 $lanthanoidColor: #ec77a3
 $actinoidColor: #c686cc
 $transitionMetalColor: #fd8572
-$postTransitionMetalColor: #4cddf3
+$otherMetalColor: #4cddf3
 $metalloidColor: #3aefb6
 $otherNonmetalColor: #52ee61
 $nobleGasColor: #759fff
@@ -288,8 +288,8 @@ body
 .transition-metal
   color: $transitionMetalColor
 
-.post-transition-metal
-  color: $postTransitionMetalColor
+.other-metal
+  color: $otherMetalColor
 
 .metalloid
   color: $metalloidColor
@@ -409,7 +409,7 @@ body
 #lanthanoids:checked ~ .periodic-table .element:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .element:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .element:not(.transition-metal),
-#post-transition-metals:checked ~ .periodic-table .element:not(.post-transition-metal),
+#other-metals:checked ~ .periodic-table .element:not(.other-metal),
 #metalloids:checked ~ .periodic-table .element:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
 #noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
@@ -419,7 +419,7 @@ body
 #lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .placeholder,
-#post-transition-metals:checked ~ .periodic-table .placeholder,
+#other-metals:checked ~ .periodic-table .placeholder,
 #metalloids:checked ~ .periodic-table .placeholder,
 #other-nonmetals:checked ~ .periodic-table .placeholder,
 #noble-gasses:checked ~ .periodic-table .placeholder,
@@ -432,7 +432,7 @@ body
 #lanthanoids:checked ~ .periodic-table .key label:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .key label:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .key label:not(.transition-metal),
-#post-transition-metals:checked ~ .periodic-table .key label:not(.post-transition-metal),
+#other-metals:checked ~ .periodic-table .key label:not(.other-metal),
 #metalloids:checked ~ .periodic-table .key label:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .key label:not(.other-nonmetal),
 #noble-gasses:checked ~ .periodic-table .key label:not(.noble-gas),
