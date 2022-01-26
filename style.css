@@ -63,7 +63,7 @@ body {
   transition-duration: 100ms, 0ms, 200ms, 200ms, 200ms, 200ms;
   transition-delay: 0ms, 100ms, 0ms, 0ms, 0ms, 0ms;
 }
-.elemento .atomic-number {
+.elemento .numero-atomico {
   position: absolute;
   left: 0;
   top: 0;
@@ -73,13 +73,13 @@ body {
   text-align: center;
   transition: 200ms;
 }
-.elemento .symbol {
+.elemento .simbolo {
   font-size: 1.7vw;
 }
 .elemento .name {
   font-size: 0.7vw;
 }
-.elemento .atomic-mass {
+.elemento .masa-atomica {
   position: absolute;
   left: 0;
   right: 0;

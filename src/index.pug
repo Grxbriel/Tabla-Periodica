@@ -1,7 +1,7 @@
 - var categorias = ['alkali-metals','alkaline-earth-metals','lanthanoids','actinoids','transition-metals','post-transition-metals','metalloids','Otros-no-Metales','noble-gasses','unknown']
 
 // ELEMENT MIXIN TEMPLATE
-mixin element(number, symbol, name, mass, weight, material, column, row)
+mixin element(number, simbolo, name, mass, weight, material, column, row)
   .element(class=material)(class='c'+column)(class='r'+row)
     input.activate(type='radio', name='elements')
     input.deactivate(type='radio', name='elements')
@@ -14,7 +14,7 @@ mixin element(number, symbol, name, mass, weight, material, column, row)
               .electron
       .atomic-number= number
       .label
-        .symbol= symbol
+        .simbolo= simbolo
         .name= name
       .atomic-mass= mass
       ul.atomic-weight

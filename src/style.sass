@@ -7,7 +7,7 @@ $lanthanoidColor: #ec77a3
 $ActinidoColor: #c686cc
 $transitionMetalColor: #fd8572
 $postTransitionMetalColor: #4cddf3
-$metalloidColor: #3aefb6
+$MetaloideColor: #3aefb6
 $otroNoMetal: #52ee61
 $GasNobleColor: #759fff
 $HalogenoColor: #ce1515
@@ -78,7 +78,7 @@ body
     transition-duration: 100ms, 0ms, 200ms, 200ms, 200ms, 200ms
     transition-delay: 0ms, 100ms, 0ms, 0ms, 0ms, 0ms
 
-  .atomic-number
+  .numero-atomico
     position: absolute
     left: 0
     top: 0
@@ -88,13 +88,13 @@ body
     text-align: center
     transition: 200ms
 
-  .symbol
+  .simbolo
     font-size: 1.7vw
 
   .name
     font-size: 0.7vw
 
-  .atomic-mass
+  .masa-atomica
     position: absolute
     left: 0
     right: 0
@@ -291,8 +291,8 @@ body
 .post-transition-metal
   color: $postTransitionMetalColor
 
-.metalloid
-  color: $metalloidColor
+.Metaloide
+  color: $MetaloideColor
 
 .Otro-no-Metal
   color: $otroNoMetal
@@ -410,7 +410,7 @@ body
 #Actinidos:checked ~ .periodic-table .elemento:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .elemento:not(.transition-metal),
 #Otros-Metales:checked ~ .periodic-table .elemento:not(.post-transition-metal),
-#Metaloides:checked ~ .periodic-table .elemento:not(.metalloid),
+#Metaloides:checked ~ .periodic-table .elemento:not(.Metaloide),
 #Otros-no-Metales:checked ~ .periodic-table .elemento:not(.Otro-no-Metal),
 #Gases-nobles:checked ~ .periodic-table .elemento:not(.GasNoble),
 #Halogenos:checked ~ .periodic-table .elemento:not(.Halogeno),
@@ -434,7 +434,7 @@ body
 #Actinidos:checked ~ .periodic-table .key label:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .key label:not(.transition-metal),
 #Otros-Metales:checked ~ .periodic-table .key label:not(.post-transition-metal),
-#Metaloides:checked ~ .periodic-table .key label:not(.metalloid),
+#Metaloides:checked ~ .periodic-table .key label:not(.Metaloide),
 #Otros-no-Metales:checked ~ .periodic-table .key label:not(.Otro-no-Metal),
 #Gases-nobles:checked ~ .periodic-table .key label:not(.GasNoble),
 #Halogenos:checked ~ .periodic-table .key label:not(.Halogeno) {
