@@ -2097,7 +2097,7 @@ body {
   opacity: 1 !important;
 }
 
-#alkali-metals:checked ~ .periodic-table .element:not(.alkali-metal),
+#Alcalinos:checked ~ .periodic-table .element:not(.alkali-metal),
 #alkaline-earth-metals:checked ~ .periodic-table .element:not(.alkaline-earth-metal),
 #lanthanoids:checked ~ .periodic-table .element:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .element:not(.actinoid),
@@ -2107,7 +2107,7 @@ body {
 #other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
 #noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
 #unknown:checked ~ .periodic-table .element:not(.unknown),
-#alkali-metals:checked ~ .periodic-table .placeholder,
+#Alcalinos:checked ~ .periodic-table .placeholder,
 #alkaline-earth-metals:checked ~ .periodic-table .placeholder,
 #lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
@@ -2121,7 +2121,7 @@ body {
   pointer-events: none;
 }
 
-#alkali-metals:checked ~ .periodic-table .key label:not(.alkali-metal),
+#Alcalinos:checked ~ .periodic-table .key label:not(.alkali-metal),
 #alkaline-earth-metals:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
 #lanthanoids:checked ~ .periodic-table .key label:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .key label:not(.actinoid),
