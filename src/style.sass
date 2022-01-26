@@ -1,9 +1,9 @@
 $bgColor: #101318
 $gridGap: 5px
 
-$alkaliMetalColor: #ecbe59
+$AlcalinoColor: #ecbe59
 $alkalineEarthMetalColor: #dee955
-$lanthanoidColor: #ec77a3
+$LantanidoColor: #ec77a3
 $ActinidoColor: #c686cc
 $transitionMetalColor: #fd8572
 $postTransitionMetalColor: #4cddf3
@@ -273,14 +273,14 @@ body
   
 // --------------------------------------
 // COLORS
-.alkali-metal
+.Alcalino
   color: $alkaliMetalColor
 
 .alkaline-earth-metal
   color: $alkalineEarthMetalColor
 
-.lanthanoid
-  color: $lanthanoidColor
+.Lantanido
+  color: $LantanidoColor
 
 .Actinido
   color: $ActinidoColor
@@ -404,9 +404,9 @@ body
 
 // --------------------------------------
 // CATEGORY TOGGLES
-#Alcalinos:checked ~ .periodic-table .elemento:not(.alkali-metal),
+#Alcalinos:checked ~ .periodic-table .elemento:not(.Alcalino),
 #Alcalino-Térreos:checked ~ .periodic-table .elemento:not(.alkaline-earth-metal),
-#Lantánidos:checked ~ .periodic-table .elemento:not(.lanthanoid),
+#Lantánidos:checked ~ .periodic-table .elemento:not(.Lantanido),
 #Actinidos:checked ~ .periodic-table .elemento:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .elemento:not(.transition-metal),
 #Otros-Metales:checked ~ .periodic-table .elemento:not(.post-transition-metal),
@@ -416,7 +416,7 @@ body
 #Halogenos:checked ~ .periodic-table .elemento:not(.Halogeno),
 #Alcalinos:checked ~ .periodic-table .placeholder,
 #Alcalino-Térreos:checked ~ .periodic-table .placeholder,
-#Lantánidos:checked ~ .periodic-table .placeholder:not(.lanthanoid),
+#Lantánidos:checked ~ .periodic-table .placeholder:not(.Lantanido),
 #Actinidos:checked ~ .periodic-table .placeholder:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .placeholder,
 #Otros-Metales:checked ~ .periodic-table .placeholder,
@@ -428,9 +428,9 @@ body
   pointer-events: none;
 }
 
-#Alcalinos:checked ~ .periodic-table .key label:not(.alkali-metal),
+#Alcalinos:checked ~ .periodic-table .key label:not(.Alcalino),
 #Alcalino-Térreos:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
-#Lantánidos:checked ~ .periodic-table .key label:not(.lanthanoid),
+#Lantánidos:checked ~ .periodic-table .key label:not(.Lantanido),
 #Actinidos:checked ~ .periodic-table .key label:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .key label:not(.transition-metal),
 #Otros-Metales:checked ~ .periodic-table .key label:not(.post-transition-metal),
