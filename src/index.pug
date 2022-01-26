@@ -1,4 +1,4 @@
-- var categorias = ['Alcalinos','alkaline-earth-metals','Lantanidos','Actinidos','transition-metals','post-transition-metals','Metaloides','Otros-no-Metales','Gases-Nobles','Halogeno']
+- var categorias = ['Alcalinos','Alcalino-Terreos','Lantanidos','Actinidos','transition-metals','Otros-Metales','Metaloides','Otros-no-Metales','Gases-Nobles','Halogeno']
 
 // ELEMENT MIXIN TEMPLATE
 mixin element(number, simbolo, name, mass, weight, material, column, row)
@@ -45,7 +45,7 @@ mixin placeholder(number, material, column, row)
     +element(10, 'Ne', 'Neon', 20.180, [2,8], 'GasNoble', 18, 2)
     +element(11, 'Na', 'Sodium', 22.990, [2,8,1], 'Alcalino', 1, 3)
     +element(12, 'Mg', 'Magnesium', 24.305, [2,8,2], 'alkaline-earth-metal', 2, 3)
-    +element(13, 'Al', 'Aluminium', 26.982, [2,8,3], 'post-transition-metal', 13, 3)
+    +element(13, 'Al', 'Aluminium', 26.982, [2,8,3], 'Otro-Metal', 13, 3)
     +element(14, 'Si', 'Silicon', 28.085, [2,8,4], 'Metaloide', 14, 3)
     +element(15, 'P', 'Phosphorus', 30.974, [2,8,5], 'Otro-no-Metal', 15, 3)
     +element(16, 'S', 'Sulfur', 32.06, [2,8,6], 'Otro-no-Metal', 16, 3)
@@ -63,7 +63,7 @@ mixin placeholder(number, material, column, row)
     +element(28, 'Ni', 'Nickel', 58.693, [2,8,16,2], 'transition-metal', 10, 4)
     +element(29, 'Cu', 'Copper', 63.546, [2,8,18,1], 'transition-metal', 11, 4)
     +element(30, 'Zn', 'Zinc', 65.38, [2,8,18,2], 'transition-metal', 12, 4)
-    +element(31, 'Ga', 'Gallium', 69.723, [2,8,18,3], 'post-transition-metal', 13, 4)
+    +element(31, 'Ga', 'Gallium', 69.723, [2,8,18,3], 'Otro-Metal', 13, 4)
     +element(32, 'Ge', 'Germanium', 72.630, [2,8,18,4], 'Metaloide', 14, 4)
     +element(33, 'As', 'Arsenic', 74.922, [2,8,18,5], 'Metaloide', 15, 4)
     +element(34, 'Se', 'Selenium', 78.971, [2,8,18,6], 'Otro-no-Metal', 16, 4)
@@ -81,8 +81,8 @@ mixin placeholder(number, material, column, row)
     +element(46, 'Pd', 'Palladium', 106.42, [2,8,18,18], 'transition-metal', 10, 5)
     +element(47, 'Ag', 'Silver', 107.87, [2,8,18,18,1], 'transition-metal', 11, 5)
     +element(48, 'Cd', 'Cadmium', 112.41, [2,8,18,18,2], 'transition-metal', 12, 5)
-    +element(49, 'In', 'Indium', 114.82, [2,8,18,18,3], 'post-transition-metal', 13, 5)
-    +element(50, 'Sn', 'Tin', 204.38, [2,8,18,18,4], 'post-transition-metal', 14, 5)
+    +element(49, 'In', 'Indium', 114.82, [2,8,18,18,3], 'Otro-Metal', 13, 5)
+    +element(50, 'Sn', 'Tin', 204.38, [2,8,18,18,4], 'Otro-Metal', 14, 5)
     +element(51, 'Sb', 'Antimony', 121.76, [2,8,18,18,5], 'Metaloide', 15, 5)
     +element(52, 'Te', 'Tellurium', 127.60, [2,8,18,18,6], 'Metaloide', 16, 5)
     +element(53, 'I', 'Iodine', 126.90, [2,8,18,18,7], 'Otro-no-Metal', 17, 5)
@@ -113,10 +113,10 @@ mixin placeholder(number, material, column, row)
     +element(78, 'Pt', 'Platinum', 195.08, [2,8,18,32,17,1], 'transition-metal', 10, 6)
     +element(79, 'Au', 'Gold', 196.97, [2,8,18,32,18,1], 'transition-metal', 11, 6)
     +element(80, 'Hg', 'Mercury', 200.59, [2,8,18,32,18,2], 'transition-metal', 12, 6)
-    +element(81, 'Tl', 'Thallium', 204.38, [2,8,18,32,18,3], 'post-transition-metal', 13, 6)
-    +element(82, 'Pb', 'Lead', 207.2, [2,8,18,32,18,4], 'post-transition-metal', 14, 6)
-    +element(83, 'Bi', 'Bismuth', 208.98, [2,8,18,32,18,5], 'post-transition-metal', 15, 6)
-    +element(84, 'Po', 'Polonium', '(209)', [2,8,18,32,18,6], 'post-transition-metal', 16, 6)
+    +element(81, 'Tl', 'Thallium', 204.38, [2,8,18,32,18,3], 'Otro-Metal', 13, 6)
+    +element(82, 'Pb', 'Lead', 207.2, [2,8,18,32,18,4], 'Otro-Metal', 14, 6)
+    +element(83, 'Bi', 'Bismuth', 208.98, [2,8,18,32,18,5], 'Otro-Metal', 15, 6)
+    +element(84, 'Po', 'Polonium', '(209)', [2,8,18,32,18,6], 'Otro-Metal', 16, 6)
     +element(85, 'At', 'Astatine', '(210)', [2,8,18,32,18,7], 'Metaloide', 17, 6)
     +element(86, 'Rn', 'Radon', '(222)', [2,8,18,32,18,8], 'GasNoble', 18, 6)
     +element(87, 'Fr', 'Francium', '(223)', [2,8,18,32,18,8,1], 'Alcalino', 1, 7)
@@ -146,7 +146,7 @@ mixin placeholder(number, material, column, row)
     +element(111, 'Rg', 'Roentgenium', '(282)', [2,8,18,32,32,17,2], 'Halogeno', 11, 7)
     +element(112, 'Cn', 'Copernicium', '(282)', [2,8,18,32,32,18,2], 'transition-metal', 12, 7)
     +element(113, 'Nh', 'Nihonium', '(286)', [2,8,18,32,32,18,3], 'Halogeno', 13, 7)
-    +element(114, 'Fl', 'Flerovium', '(289)', [2,8,18,32,32,18,4], 'post-transition-metal', 14, 7)
+    +element(114, 'Fl', 'Flerovium', '(289)', [2,8,18,32,32,18,4], 'Otro-Metal', 14, 7)
     +element(115, 'Mc', 'Moscovium', '(290)', [2,8,18,32,32,18,5], 'Halogeno', 15, 7)
     +element(116, 'Lv', 'Livermorium', '(293)', [2,8,18,32,32,18,6], 'Halogeno', 16, 7)
     +element(117, 'Ts', 'Tennessine', '(294)', [2,8,18,32,32,18,7], 'Halogeno', 17, 7)
@@ -160,12 +160,12 @@ mixin placeholder(number, material, column, row)
     .key
       .row
         label.Alcalino(for='Alcalinos') Alcalinos
-        label.alkaline-earth-metal(for='alkaline-earth-metals') Alkaline Earth Metals
+        label.alkaline-earth-metal(for='Alcalino-Terreos') Alkaline Earth Metals
         label.Lantanoide(for='Lantanoides') Lantanoides
-        label.Actinido(for='Actinidos') Aktinoids
+        label.Actinido(for='Actinidos') Actinidos
         label.transition-metal(for='transition-metals') Transition Metals
-        label.post-transition-metal(for='post-transition-metals') Post-Transition Metals
+        label.Otro-Metal(for='Otros-Metales') Otros Metales
         label.Metaloide(for='Metaloides') Metaloides
-        label.Otro-no-Metal(for='Otros-no-Metales') Other Nonmetals
+        label.Otro-no-Metal(for='Otros-no-Metales') Otros No Metales
         label.GasNoble(for='Gases-Nobles') Noble Gasses
         label.Halogeno(for='Halogenos') Halogenos
