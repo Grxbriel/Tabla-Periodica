@@ -1,4 +1,4 @@
-- var categories = ['alkali-metals','alkaline-earth-metals','lanthanoids','actinoids','transition-metals','other-metals','metalloids','other-nonmetals','noble-gasses','halogens']
+- var categories = ['alkali-metals','alkaline-earth-metals','lanthanoids','actinoids','transition-metals','other-metals','metalloids','other-nonmetals','noble-gasses','unknown']
 
 // ELEMENT MIXIN TEMPLATE
 mixin element(number, symbol, name, mass, weight, material, column, row)
@@ -141,16 +141,16 @@ mixin placeholder(number, material, column, row)
     +element(106, 'Sg', 'Seaborgium', '(269)', [2,8,18,32,32,12,2], 'transition-metal', 6, 7)
     +element(107, 'Bh', 'Bohrium', '(270)', [2,8,18,32,32,13,2], 'transition-metal', 7, 7)
     +element(108, 'Hs', 'Hassium', '(277)', [2,8,18,32,32,14,2], 'transition-metal', 8, 7)
-    +element(109, 'Mt', 'Meitnerium', '(278)', [2,8,18,32,32,15,2], 'halogen', 9, 7)
-    +element(110, 'Ds', 'Darmstadtium', '(281)', [2,8,18,32,32,17,1], 'halogen', 10, 7)
-    +element(111, 'Rg', 'Roentgenium', '(282)', [2,8,18,32,32,17,2], 'halogen', 11, 7)
+    +element(109, 'Mt', 'Meitnerium', '(278)', [2,8,18,32,32,15,2], 'unknown', 9, 7)
+    +element(110, 'Ds', 'Darmstadtium', '(281)', [2,8,18,32,32,17,1], 'unknown', 10, 7)
+    +element(111, 'Rg', 'Roentgenium', '(282)', [2,8,18,32,32,17,2], 'unknown', 11, 7)
     +element(112, 'Cn', 'Copernicium', '(282)', [2,8,18,32,32,18,2], 'transition-metal', 12, 7)
-    +element(113, 'Nh', 'Nihonium', '(286)', [2,8,18,32,32,18,3], 'halogen', 13, 7)
+    +element(113, 'Nh', 'Nihonium', '(286)', [2,8,18,32,32,18,3], 'unknown', 13, 7)
     +element(114, 'Fl', 'Flerovium', '(289)', [2,8,18,32,32,18,4], 'other-metal', 14, 7)
-    +element(115, 'Mc', 'Moscovium', '(290)', [2,8,18,32,32,18,5], 'halogen', 15, 7)
-    +element(116, 'Lv', 'Livermorium', '(293)', [2,8,18,32,32,18,6], 'halogen', 16, 7)
-    +element(117, 'Ts', 'Tennessine', '(294)', [2,8,18,32,32,18,7], 'halogen', 17, 7)
-    +element(118, 'Og', 'Oganesson', '(294)', [2,8,18,32,32,18,8], 'halogen', 18, 7)
+    +element(115, 'Mc', 'Moscovium', '(290)', [2,8,18,32,32,18,5], 'unknown', 15, 7)
+    +element(116, 'Lv', 'Livermorium', '(293)', [2,8,18,32,32,18,6], 'unknown', 16, 7)
+    +element(117, 'Ts', 'Tennessine', '(294)', [2,8,18,32,32,18,7], 'unknown', 17, 7)
+    +element(118, 'Og', 'Oganesson', '(294)', [2,8,18,32,32,18,8], 'unknown', 18, 7)
     
     +placeholder('57-71', 'lanthanoid', 3, 6)
     +placeholder('89-103', 'actinoid', 3, 7)
@@ -168,4 +168,4 @@ mixin placeholder(number, material, column, row)
         label.metalloid(for='metalloids') Metalloids
         label.other-nonmetal(for='other-nonmetals') Other Nonmetals
         label.noble-gas(for='noble-gasses') Noble Gasses
-        label.halogen(for='halogens') Halogen
+        label.unknown(for='unknown') Unknown
