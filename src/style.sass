@@ -404,45 +404,49 @@ body
 
 // --------------------------------------
 // CATEGORY TOGGLES
-#alkali-metals:checked ~ .periodic-table .element:not(.alkali-metal),
-#alkaline-earth-metals:checked ~ .periodic-table .element:not(.alkaline-earth-metal),
-#lanthanoids:checked ~ .periodic-table .element:not(.lanthanoid),
-#actinoids:checked ~ .periodic-table .element:not(.actinoid),
-#transition-metals:checked ~ .periodic-table .element:not(.transition-metal),
-#post-transition-metals:checked ~ .periodic-table .element:not(.post-transition-metal),
-#Metaloides:checked ~ .periodic-table .element:not(.metalloid),
-#other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
-#Gas-Nobleses:checked ~ .periodic-table .element:not(.Gas-Noble),
-#Halógenos:checked ~ .periodic-table .element:not(.Halógeno),
-#alkali-metals:checked ~ .periodic-table .placeholder,
-#alkaline-earth-metals:checked ~ .periodic-table .placeholder,
-#lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
-#actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
-#transition-metals:checked ~ .periodic-table .placeholder,
-#post-transition-metals:checked ~ .periodic-table .placeholder,
+#Alcalinos:checked ~ .periodic-table .elemento:not(.alkali-metal),
+#Alcalino-Térreos:checked ~ .periodic-table .elemento:not(.alkaline-earth-metal),
+#Lantánidos:checked ~ .periodic-table .elemento:not(.lanthanoid),
+#Actínidos:checked ~ .periodic-table .elemento:not(.actinoid),
+#Metales-de-Transición:checked ~ .periodic-table .elemento:not(.transition-metal),
+#Otros-Metales:checked ~ .periodic-table .elemento:not(.post-transition-metal),
+#Metaloides:checked ~ .periodic-table .elemento:not(.metalloid),
+#Otros-Metales:checked ~ .periodic-table .elemento:not(.other-nonmetal),
+#Gases-nobles:checked ~ .periodic-table .elemento:not(.Gas-Noble),
+#Halógenos:checked ~ .periodic-table .elemento:not(.Halógeno),
+#Alcalinos:checked ~ .periodic-table .placeholder,
+#Alcalino-Térreos:checked ~ .periodic-table .placeholder,
+#Lantánidos:checked ~ .periodic-table .placeholder:not(.lanthanoid),
+#Actínidos:checked ~ .periodic-table .placeholder:not(.actinoid),
+#Metales-de-Transición:checked ~ .periodic-table .placeholder,
+#Otros-Metales:checked ~ .periodic-table .placeholder,
 #Metaloides:checked ~ .periodic-table .placeholder,
-#other-nonmetals:checked ~ .periodic-table .placeholder,
-#Gas-Nobleses:checked ~ .periodic-table .placeholder,
-#Halógenos:checked ~ .periodic-table .placeholder
-  opacity: 0.15
-  pointer-events: none
+#Otros-Metales:checked ~ .periodic-table .placeholder,
+#Gases-nobles:checked ~ .periodic-table .placeholder,
+#Halógenos:checked ~ .periodic-table .placeholder {
+  opacity: 0.15;
+  pointer-events: none;
+}
 
-#alkali-metals:checked ~ .periodic-table .key label:not(.alkali-metal),
-#alkaline-earth-metals:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
-#lanthanoids:checked ~ .periodic-table .key label:not(.lanthanoid),
-#actinoids:checked ~ .periodic-table .key label:not(.actinoid),
-#transition-metals:checked ~ .periodic-table .key label:not(.transition-metal),
-#post-transition-metals:checked ~ .periodic-table .key label:not(.post-transition-metal),
+#Alcalinos:checked ~ .periodic-table .key label:not(.alkali-metal),
+#Alcalino-Térreos:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
+#Lantánidos:checked ~ .periodic-table .key label:not(.lanthanoid),
+#Actínidos:checked ~ .periodic-table .key label:not(.actinoid),
+#Metales-de-Transición:checked ~ .periodic-table .key label:not(.transition-metal),
+#Otros-Metales:checked ~ .periodic-table .key label:not(.post-transition-metal),
 #Metaloides:checked ~ .periodic-table .key label:not(.metalloid),
-#other-nonmetals:checked ~ .periodic-table .key label:not(.other-nonmetal),
-#Gas-Nobleses:checked ~ .periodic-table .key label:not(.Gas-Noble),
-#Halógenos:checked ~ .periodic-table .key label:not(.Halógeno)
-  opacity: 0.65
+#Otros-Metales:checked ~ .periodic-table .key label:not(.other-nonmetal),
+#Gases-nobles:checked ~ .periodic-table .key label:not(.Gas-Noble),
+#Halógenos:checked ~ .periodic-table .key label:not(.Halógeno) {
+  opacity: 0.65;
+}
 
-.category-toggle:not(#lanthanoids):not(#actinoids):checked ~ .periodic-table .gap
-  opacity: 0.5
+.cambiar-categoria:not(#Lantánidos):not(#Actínidos):checked ~ .periodic-table .gap {
+  opacity: 0.5;
+}
 
-.category-toggle:checked ~ .category-cancel
-  visibility: visible
-  pointer-events: all
-  cursor: pointer
+.cambiar-categoria:checked ~ .cancelar-categoria {
+  visibility: visible;
+  pointer-events: all;
+  cursor: pointer;
+}
