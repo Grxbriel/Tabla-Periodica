@@ -1872,7 +1872,7 @@ body {
   color: #fd8572;
 }
 
-.Otro-Metal {
+.otroMetal {
   color: #4cddf3;
 }
 
@@ -1884,7 +1884,7 @@ body {
   color: #52ee61;
 }
 
-.Gas-Noble {
+.gasNoble {
   color: #759fff;
 }
 
@@ -2102,10 +2102,10 @@ body {
 #Lantanidos:checked ~ .periodic-table .elemento:not(.Lantanido),
 #Actinidos:checked ~ .periodic-table .elemento:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .elemento:not(.transition-metal),
-#Otros-Metales:checked ~ .periodic-table .elemento:not(.Otro-Metal),
+#Otros-Metales:checked ~ .periodic-table .elemento:not(.otroMetal),
 #Metaloides:checked ~ .periodic-table .elemento:not(.Metaloide),
 #Otros-no-Metales:checked ~ .periodic-table .elemento:not(.Otro-no-Metal),
-#Gases-nobles:checked ~ .periodic-table .elemento:not(.Gas-Noble),
+#Gases-nobles:checked ~ .periodic-table .elemento:not(.gasNoble),
 #Halogenos:checked ~ .periodic-table .elemento:not(.Halogeno),
 #Alcalinos:checked ~ .periodic-table .placeholder,
 #Alcalino-Terreos:checked ~ .periodic-table .placeholder,
@@ -2126,10 +2126,10 @@ body {
 #Lantanidos:checked ~ .periodic-table .key label:not(.Lantanido),
 #Actinidos:checked ~ .periodic-table .key label:not(.Actinido),
 #Metales-de-Transición:checked ~ .periodic-table .key label:not(.transition-metal),
-#Otros-Metales:checked ~ .periodic-table .key label:not(.Otro-Metal),
+#Otros-Metales:checked ~ .periodic-table .key label:not(.otroMetal),
 #Metaloides:checked ~ .periodic-table .key label:not(.Metaloide),
 #Otros-no-Metales:checked ~ .periodic-table .key label:not(.Otro-no-Metal),
-#Gases-nobles:checked ~ .periodic-table .key label:not(.Gas-Noble),
+#Gases-nobles:checked ~ .periodic-table .key label:not(.gasNoble),
 #Halogenos:checked ~ .periodic-table .key label:not(.Halogeno) {
   opacity: 0.65;
 }
