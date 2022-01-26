@@ -2098,7 +2098,7 @@ body {
 }
 
 #Alcalinos:checked ~ .periodic-table .element:not(.alkali-metal),
-#alkaline-earth-metals:checked ~ .periodic-table .element:not(.alkaline-earth-metal),
+#Alcalino-Térreos:checked ~ .periodic-table .element:not(.alkaline-earth-metal),
 #lanthanoids:checked ~ .periodic-table .element:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .element:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .element:not(.transition-metal),
@@ -2108,7 +2108,7 @@ body {
 #noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
 #unknown:checked ~ .periodic-table .element:not(.unknown),
 #Alcalinos:checked ~ .periodic-table .placeholder,
-#alkaline-earth-metals:checked ~ .periodic-table .placeholder,
+#Alcalino-Térreos:checked ~ .periodic-table .placeholder,
 #lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .placeholder,
@@ -2122,7 +2122,7 @@ body {
 }
 
 #Alcalinos:checked ~ .periodic-table .key label:not(.alkali-metal),
-#alkaline-earth-metals:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
+#Alcalino-Térreos:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
 #lanthanoids:checked ~ .periodic-table .key label:not(.lanthanoid),
 #actinoids:checked ~ .periodic-table .key label:not(.actinoid),
 #transition-metals:checked ~ .periodic-table .key label:not(.transition-metal),
